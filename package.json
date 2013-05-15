@@ -1,10 +1,10 @@
 {
-  "name": "pl.sprinterka",
+  "name": "maps.andrusieczko",
   "version": "0.1.0",
-  "author": "kaan & todr",
-  "website": "sprinterka.pl",
+  "author": "kaan",
+  "website": "andrusieczko.pl/maps",
   "license": "-",
-  "private": true,
+  "private": false,
   "scripts": {
     "start": "python2 manage.py runserver 8080"
   },
@@ -18,16 +18,14 @@
     "grunt-shell": "0.2.x"
   },
   "jam": {
-    "packageDir": "static/js/vendor/jam",
+    "packageDir": "static/js/vendor",
     "baseUrl": "static/js",
     "dependencies" : {
       "jquery": null,
-      "backbone": null,
       "underscore": null,
       "angularjs" : null,
       "vague-time" : null,
-      "marked" : null,
-      "pnotify" : null
+      "marked" : null
     }
   }
 }

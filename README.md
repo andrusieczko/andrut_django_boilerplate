@@ -13,3 +13,6 @@ Maps
 * [grunt](http://gruntjs.com/getting-started)
 ** `npm install -g grunt-cli`
 ** `npm install`
+* [jamjs](http://jamjs.org)
+** `npm install -g jamjs`
+** `jam install`
