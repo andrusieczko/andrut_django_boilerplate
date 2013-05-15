@@ -9,10 +9,10 @@ Maps
 ### Installation
 
 * [Django](https://www.djangoproject.com/download/)
-** `pip install Django==1.5.1`
+    * `pip install Django==1.5.1`
 * [grunt](http://gruntjs.com/getting-started)
-** `npm install -g grunt-cli`
-** `npm install`
+    * `npm install -g grunt-cli`
+    * `npm install`
 * [jamjs](http://jamjs.org)
-** `npm install -g jamjs`
-** `jam install`
+    * `npm install -g jamjs`
+    * `jam install`

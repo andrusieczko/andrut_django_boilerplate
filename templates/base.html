@@ -29,12 +29,30 @@
 <body>
     {% block content %}{% endblock content %}
     
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.js"></script>
-    <script>!window.jQuery && document.write(unescape('%3Cscript src="{{ STATIC_URL }}js/libs/jquery-1.6.4.min.js"%3E%3C/script%3E'))</script>
-    
     {% compress js %}
     {% endcompress %}
-    
+
+    <!-- TODO: do it automatically -->
+    <script src='{% static "js/vendor/jquery/dist/jquery.js" %}'></script>
+    <script src='{% static "js/vendor/bootstrap.js" %}'></script>
+    <link rel="stylesheet" href='{% static "css/vendor-bootstrap.css" %}'>
+    <link rel="stylesheet" href='{% static "css/vendor-font-awesome.css" %}'>
+
+    <table class="table table-striped">
+        <tr>
+            <td>sdf</td>
+            <td>sdfkj <i class="icon-bar-chart"></i></td>
+        </tr>
+        <tr>
+            <td>sdf</td>
+            <td>sdfkj</td>
+        </tr>
+        <tr>
+            <td>sdf</td>
+            <td>sdfkj</td>
+        </tr>
+    </table>
+
     <script>
         var _gaq=[['_setAccount','UA-6516194-8'],['_trackPageview']]; // Change UA-XXXXX-X to be your site's ID
         (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];g.async=1;
