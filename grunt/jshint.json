@@ -1,0 +1,31 @@
+{
+  "options": {
+    "curly": true,
+    "eqeqeq": true,
+    "immed": true,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "sub": true,
+    "undef": true,
+    "boss": true,
+    "eqnull": true,
+    "es5": true,
+    "globals": {
+      "define": true,
+      "require": true,
+      "requirejs": true,
+      "describe": true,
+      "it": true,
+      "beforeEach": true
+    }
+  },
+  "frontend": {
+    "files": {
+      "src": "<%= files.frontend %>"
+    },
+    "options": {
+      "browser": true
+    }
+  }
+}

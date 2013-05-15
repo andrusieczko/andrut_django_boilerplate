@@ -1,0 +1,10 @@
+{
+	"frontend": {
+		"src": "<%= files.frontend %>",
+		"options": {
+			"cyclomatic": 3,
+			"halstead": 8,
+			"maintainability": 80
+		}
+	}
+}

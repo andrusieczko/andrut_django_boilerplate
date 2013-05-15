@@ -1,0 +1,10 @@
+{
+  "runTests": {
+    "command": "python2 manage.py test frontend",
+    "options": {
+      "stdout" : true,
+      "stderr" : true,
+      "failOnError" : true
+    }
+  }
+}

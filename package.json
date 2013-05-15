@@ -1,0 +1,33 @@
+{
+  "name": "pl.sprinterka",
+  "version": "0.1.0",
+  "author": "kaan & todr",
+  "website": "sprinterka.pl",
+  "license": "-",
+  "private": true,
+  "scripts": {
+    "start": "python2 manage.py runserver 8080"
+  },
+  "dependencies": {
+    "grunt": "0.4.x",
+    "jam" : "*",
+    "grunt-requirejs" : "*",
+    "grunt-mocha" : "0.2.x",
+    "grunt-complexity" : "*",
+    "grunt-contrib-jshint": "0.1.x",
+    "grunt-shell": "0.2.x"
+  },
+  "jam": {
+    "packageDir": "static/js/vendor/jam",
+    "baseUrl": "static/js",
+    "dependencies" : {
+      "jquery": null,
+      "backbone": null,
+      "underscore": null,
+      "angularjs" : null,
+      "vague-time" : null,
+      "marked" : null,
+      "pnotify" : null
+    }
+  }
+}

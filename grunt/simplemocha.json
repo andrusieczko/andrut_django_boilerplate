@@ -1,0 +1,12 @@
+{
+  "options": {
+    "globals": ["chai"],
+    "timeout": 3000,
+    "ignoreLeaks": false,
+    "ui": "bdd",
+    "reporter": "nyan"
+  },
+  "backend": {
+    "src": "tests/backend/**/*.js"
+  }
+}

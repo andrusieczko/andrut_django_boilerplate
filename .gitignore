@@ -2,3 +2,14 @@
 *.pot
 *.pyc
 local_settings.py
+*.pyo
+*~
+.project
+.settings
+.pydevproject
+.cache
+.tmproj
+nbproject
+*.sublime-project
+*.sublime-workspace
+node_modules
