@@ -25,7 +25,10 @@
       "underscore": null,
       "angularjs" : null,
       "vague-time" : null,
-      "marked" : null
+      "marked" : null,
+      "bootstrap": null,
+      "font-awesome": null,
+      "less": null
     }
   }
 }

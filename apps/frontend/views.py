@@ -1,4 +1,4 @@
-from django.shortcuts import render_to_response
+from django.shortcuts import render_to_response, redirect
 from apps.frontend.models import Address, Person
 from django.http.response import HttpResponse
 from django.core import serializers
@@ -18,3 +18,6 @@ def createExample(request):
 def example(request):
     json = serializers.serialize('json', Person.objects.all(), relations=('address',))
     return HttpResponse(json, mimetype="application/json")
+
+def vendorFiles(request, path):
+    return redirect('/static/js/vendor' + path)

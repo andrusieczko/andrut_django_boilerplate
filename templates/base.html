@@ -23,7 +23,7 @@
     <link rel="stylesheet" href='{% static "css/reset.css"%}'>
     {% endcompress %}
 
-    {% compress js %}<script src='{% static "js/libs/vendor-modernizr-2.0.6.js" %}'></script>{% endcompress %}
+    <!-- {% compress js %}<script src='{% static "js/libs/vendor-modernizr-2.0.6.js" %}'></script>{% endcompress %} -->
     
 </head>
 <body>
@@ -32,11 +32,12 @@
     {% compress js %}
     {% endcompress %}
 
-    <!-- TODO: do it automatically -->
-    <script src='{% static "js/vendor/jquery/dist/jquery.js" %}'></script>
-    <script src='{% static "js/vendor/bootstrap.js" %}'></script>
-    <link rel="stylesheet" href='{% static "css/vendor-bootstrap.css" %}'>
-    <link rel="stylesheet" href='{% static "css/vendor-font-awesome.css" %}'>
+    <script src='{% static "js/vendor/require.js" %}'></script>
+    <script src='{% static "js/vendor/require.config.js" %}'></script>
+    <script src='{% static "js/main.js" %}'></script>
+
+    <link rel="stylesheet" href='{% static "js/vendor/bootstrap/docs/assets/css/bootstrap.css" %}'>
+    <link rel="stylesheet" href='{% static "js/vendor/font-awesome/css/font-awesome.css" %}'>
 
     <table class="table table-striped">
         <tr>
@@ -49,7 +50,7 @@
         </tr>
         <tr>
             <td>sdf</td>
-            <td>sdfkj</td>
+            <td>sdfkj <a href="#" data-toggle="tooltip" title="first tooltip">hover over me</a></td>
         </tr>
     </table>
 

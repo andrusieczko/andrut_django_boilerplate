@@ -2007,9 +2007,22 @@ var jam = {
             "main": "angular.js"
         },
         {
+            "name": "bootstrap",
+            "location": "vendor/bootstrap"
+        },
+        {
+            "name": "font-awesome",
+            "location": "vendor/font-awesome"
+        },
+        {
             "name": "jquery",
             "location": "vendor/jquery",
             "main": "dist/jquery.js"
+        },
+        {
+            "name": "less",
+            "location": "vendor/less",
+            "main": "./dist/less-1.4.0-alpha.js"
         },
         {
             "name": "marked",
@@ -2044,9 +2057,22 @@ if (typeof require !== "undefined" && require.config) {
             "main": "angular.js"
         },
         {
+            "name": "bootstrap",
+            "location": "vendor/bootstrap"
+        },
+        {
+            "name": "font-awesome",
+            "location": "vendor/font-awesome"
+        },
+        {
             "name": "jquery",
             "location": "vendor/jquery",
             "main": "dist/jquery.js"
+        },
+        {
+            "name": "less",
+            "location": "vendor/less",
+            "main": "./dist/less-1.4.0-alpha.js"
         },
         {
             "name": "marked",
@@ -2080,9 +2106,22 @@ else {
             "main": "angular.js"
         },
         {
+            "name": "bootstrap",
+            "location": "vendor/bootstrap"
+        },
+        {
+            "name": "font-awesome",
+            "location": "vendor/font-awesome"
+        },
+        {
             "name": "jquery",
             "location": "vendor/jquery",
             "main": "dist/jquery.js"
+        },
+        {
+            "name": "less",
+            "location": "vendor/less",
+            "main": "./dist/less-1.4.0-alpha.js"
         },
         {
             "name": "marked",
