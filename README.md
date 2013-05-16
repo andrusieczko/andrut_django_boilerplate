@@ -1,4 +1,4 @@
-Maps
+Django boilerplate by andrut 
 ====
 
 ### What I use here
