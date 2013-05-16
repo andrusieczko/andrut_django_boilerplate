@@ -10,7 +10,9 @@ admin.autodiscover()
 urlpatterns = patterns('',
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'apps.frontend.views.app', name='app'),
-    # url(r'^grappelli/', include('grappelli.urls')),
+
+    url(r'^example$', 'apps.frontend.views.example', name='example'),
+    url(r'^createExample$', 'apps.frontend.views.createExample', name='createExample'),
 )
 
 urlpatterns += staticfiles_urlpatterns()

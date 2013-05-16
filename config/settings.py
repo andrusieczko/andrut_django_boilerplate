@@ -16,8 +16,12 @@ sys.path.insert(0, PROJECT_ROOT / 'apps')
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
+# SERIALIZATION_MODULES = {
+#     'json': 'wadofstuff.django.serializers.json'
+# }
+
 SERIALIZATION_MODULES = {
-    'json': 'wadofstuff.django.serializers.json'
+    'json': 'apps.frontend.serializer'
 }
 
 ADMINS = (
